@@ -53,7 +53,7 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'name',
+      title: 'nickname',
       media: 'image',
     },
   },
