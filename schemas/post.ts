@@ -44,6 +44,11 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: 'bannerCredit',
+      title: 'Banner Credit',
+      type: 'string',
+    }),
+    defineField({
       name: 'category',
       title: 'Category',
       type: 'reference',
