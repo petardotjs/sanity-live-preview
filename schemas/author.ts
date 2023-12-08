@@ -50,6 +50,16 @@ export default defineType({
         },
       ],
     }),
+    defineField({
+      name: 'twitter',
+      title: 'Twitter',
+      type: 'string',
+    }),
+    defineField({
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+    }),
   ],
   preview: {
     select: {
