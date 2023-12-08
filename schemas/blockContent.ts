@@ -1,4 +1,5 @@
 import {defineType, defineArrayMember} from 'sanity'
+import captionedImage from './captionedImage'
 
 /**
  * This is the schema definition for the rich text fields used for
@@ -72,5 +73,6 @@ export default defineType({
         withFilename: true,
       },
     }),
+    defineArrayMember(captionedImage),
   ],
 })
