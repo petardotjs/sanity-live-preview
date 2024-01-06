@@ -49,6 +49,11 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: 'bannerDataUrl',
+      title: 'Banner Data Url',
+      type: 'string',
+    }),
+    defineField({
       name: 'category',
       title: 'Category',
       type: 'reference',
